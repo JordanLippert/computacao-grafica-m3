@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0e14;
+  --panel: #141a26;
+  --panel-border: #243044;
+  --text: #c9d4e3;
+  --muted: #6b7a90;
+  --accent: #5ad1ff;
+  --c-sep: #ff5a7a;
+  --c-align: #5affa0;
+  --c-coh: #5a8bff;
+  --c-flee: #ffd45a;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  overflow: hidden;
+}

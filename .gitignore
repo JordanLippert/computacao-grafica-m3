@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+*.local
+.vite/
+
+# Locais — fora do GitHub
+.claude/
+docs/
